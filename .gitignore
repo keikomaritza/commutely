@@ -1,0 +1,25 @@
+# Dependencies and builds
+node_modules/
+.next/
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment and local state
+.env
+.env.local
+.env.*.local
+.env.*
+*.log
+
+# Local data and generated spatial artefacts
+data/raw/*
+data/processed/*
+data/spatial/*
+data/exports/*
+!data/**/.gitkeep
